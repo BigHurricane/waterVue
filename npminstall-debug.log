@@ -1,0 +1,267 @@
+{ root: 'C:\\Users\\Administrator\\Desktop\\take-delivery',
+  registry: 'https://registry.npm.taobao.org',
+  pkgs: [ { name: 'lib-flexible', version: '^0.3.2', type: 'tag' } ],
+  production: false,
+  cacheStrict: false,
+  cacheDir: 'C:\\Users\\Administrator\\.npminstall_tarball',
+  env:
+   { npm_config_registry: 'https://registry.npm.taobao.org',
+     npm_config_argv:
+      '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org","lib-flexible"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://npm.taobao.org/mirrors/node","--registry=https://registry.npm.taobao.org","lib-flexible"]}',
+     NODE: 'C:\\Program Files\\nodejs\\node.exe',
+     npm_node_execpath: 'C:\\Program Files\\nodejs\\node.exe',
+     npm_execpath:
+      'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npminstall\\bin\\install.js',
+     npm_rootpath: 'C:\\Users\\Administrator\\Desktop\\take-delivery',
+     npm_config_userconfig: 'C:\\Users\\Administrator\\.cnpmrc',
+     npm_config_disturl: 'https://npm.taobao.org/mirrors/node',
+     npm_config_r: 'https://registry.npm.taobao.org',
+     NODEJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/node',
+     NVM_NODEJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/node',
+     NVM_IOJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/iojs',
+     PHANTOMJS_CDNURL: 'https://cdn.npm.taobao.org/dist/phantomjs',
+     CHROMEDRIVER_CDNURL: 'https://cdn.npm.taobao.org/dist/chromedriver',
+     OPERADRIVER_CDNURL: 'https://cdn.npm.taobao.org/dist/operadriver',
+     ELECTRON_MIRROR: 'https://cdn.npm.taobao.org/dist/electron/',
+     SASS_BINARY_SITE: 'https://cdn.npm.taobao.org/dist/node-sass',
+     FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
+     NWJS_URLBASE: 'https://cdn.npm.taobao.org/dist/nwjs/v',
+     PUPPETEER_DOWNLOAD_HOST: 'https://cdn.npm.taobao.org/dist',
+     SENTRYCLI_CDNURL: 'https://cdn.npm.taobao.org/dist/sentry-cli',
+     npm_config_sharp_binary_host: 'https://cdn.npm.taobao.org/dist/sharp',
+     npm_config_cache: 'C:\\Users\\Administrator\\.npminstall_tarball' },
+  binaryMirrors:
+   { ENVS:
+      { NODEJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/node',
+        NVM_NODEJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/node',
+        NVM_IOJS_ORG_MIRROR: 'https://cdn.npm.taobao.org/dist/iojs',
+        PHANTOMJS_CDNURL: 'https://cdn.npm.taobao.org/dist/phantomjs',
+        CHROMEDRIVER_CDNURL: 'https://cdn.npm.taobao.org/dist/chromedriver',
+        OPERADRIVER_CDNURL: 'https://cdn.npm.taobao.org/dist/operadriver',
+        ELECTRON_MIRROR: 'https://cdn.npm.taobao.org/dist/electron/',
+        SASS_BINARY_SITE: 'https://cdn.npm.taobao.org/dist/node-sass',
+        FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
+        NWJS_URLBASE: 'https://cdn.npm.taobao.org/dist/nwjs/v',
+        PUPPETEER_DOWNLOAD_HOST: 'https://cdn.npm.taobao.org/dist',
+        SENTRYCLI_CDNURL: 'https://cdn.npm.taobao.org/dist/sentry-cli',
+        npm_config_sharp_binary_host: 'https://cdn.npm.taobao.org/dist/sharp' },
+     sharp: { replaceHostFiles: [Array], replaceHostMap: [Object] },
+     cypress: { host: 'https://cdn.npm.taobao.org/dist/cypress' },
+     'utf-8-validate':
+      { host: 'https://cdn.npm.taobao.org/dist/utf-8-validate/v{version}' },
+     leveldown:
+      { host: 'https://cdn.npm.taobao.org/dist/leveldown/v{version}' },
+     'leveldown-hyper':
+      { host: 'https://cdn.npm.taobao.org/dist/leveldown-hyper/v{version}' },
+     zeromq:
+      { host: 'https://cdn.npm.taobao.org/dist/zeromq/v{version}' },
+     mknod: { host: 'https://cdn.npm.taobao.org/dist/mknod/v{version}' },
+     couchbase:
+      { host: 'https://cdn.npm.taobao.org/dist/couchbase/v{version}' },
+     'sodium-prebuilt':
+      { host: 'https://cdn.npm.taobao.org/dist/sodium-prebuilt/v{version}' },
+     'utp-native':
+      { host: 'https://cdn.npm.taobao.org/dist/utp-native/v{version}' },
+     'node-tk5':
+      { host: 'https://cdn.npm.taobao.org/dist/node-tk5/v{version}' },
+     'fuse-bindings':
+      { host: 'https://cdn.npm.taobao.org/dist/fuse-bindings/v{version}' },
+     'zmq-prebuilt':
+      { host: 'https://cdn.npm.taobao.org/dist/zmq-prebuilt/v{version}' },
+     gl: { host: 'https://cdn.npm.taobao.org/dist/gl/v{version}' },
+     hackrf:
+      { host: 'https://cdn.npm.taobao.org/dist/hackrf/v{version}' },
+     rabin: { host: 'https://cdn.npm.taobao.org/dist/rabin/v{version}' },
+     'v8-debug': { host: 'https://cdn.npm.taobao.org/dist/node-inspector' },
+     'v8-profiler': { host: 'https://cdn.npm.taobao.org/dist/node-inspector' },
+     sqlite3: { host: 'https://cdn.npm.taobao.org/dist' },
+     grpc:
+      { host: 'https://cdn.npm.taobao.org/dist',
+        remote_path: '{name}/v{version}' },
+     fsevents: { host: 'https://cdn.npm.taobao.org/dist/fsevents' },
+     nodegit:
+      { host: 'https://cdn.npm.taobao.org/dist/nodegit/v{version}' },
+     'canvas-prebuilt': { host: 'https://cdn.npm.taobao.org/dist/canvas-prebuilt' },
+     'flow-bin':
+      { replaceHost: 'https://github.com/facebook/flow/releases/download/v',
+        host: 'https://cdn.npm.taobao.org/dist/flow/v' },
+     'jpegtran-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/jpegtran-bin' },
+     'cwebp-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/cwebp-bin' },
+     'zopflipng-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/zopflipng-bin' },
+     'optipng-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/optipng-bin' },
+     mozjpeg:
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/mozjpeg-bin' },
+     gifsicle:
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/gifsicle-bin' },
+     'pngquant-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/pngquant-bin',
+        replaceHostMap: [Object] },
+     'pngcrush-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/pngcrush-bin' },
+     'jpeg-recompress-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/jpeg-recompress-bin' },
+     'advpng-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/advpng-bin' },
+     'pngout-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/pngout-bin' },
+     'jpegoptim-bin':
+      { replaceHost: [Array],
+        host: 'https://npm.taobao.org/mirrors/jpegoptim-bin' },
+     vscode: { replaceHostRegExpMap: [Object] } },
+  forbiddenLicenses: null,
+  flatten: false,
+  proxy: undefined,
+  prune: false,
+  strictSSL: true,
+  ignoreScripts: false,
+  detail: false,
+  trace: false,
+  engineStrict: false,
+  registryOnly: false,
+  autoFixVersion: [Function: autoFixVersion],
+  spinner:
+   Ora {
+     options: { text: '', color: 'cyan', stream: [WriteStream] },
+     spinner: { interval: 130, frames: [Array] },
+     text: '[0/1] Installing lib-flexible@^0.3.2',
+     color: 'cyan',
+     interval: 130,
+     stream:
+      WriteStream {
+        connecting: false,
+        _hadError: false,
+        _handle: [TTY],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        columns: 143,
+        rows: 6,
+        _type: 'tty',
+        fd: 2,
+        _isStdio: true,
+        destroySoon: [Function: destroy],
+        _destroy: [Function],
+        [Symbol(asyncId)]: 5,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]: null,
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     id: null,
+     frameIndex: 0,
+     enabled: true },
+  events:
+   EventEmitter {
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: 0,
+     await: [Function] },
+  postInstallTasks: [],
+  peerDependencies: [],
+  linkPeerDependencies: [],
+  packageVersions: { 'lib-flexible': Set { '0.3.2' } },
+  latestVersions: Map { 'lib-flexible' => '0.3.2' },
+  latestPackages: Map {},
+  cache:
+   { 'npm:resolve:package:lib-flexible':
+      { done: true,
+        name: 'lib-flexible',
+        modified: '2017-03-30T09:09:52.000Z',
+        'dist-tags': [Object],
+        versions: [Object],
+        allVersions: [Array] },
+     'npm:resolve:version:lib-flexible@^0.3.2':
+      { name: 'lib-flexible',
+        version: '0.3.2',
+        directories: {},
+        dist: [Object],
+        _hasShrinkwrap: false,
+        publish_time: 1452598783909 },
+     'download:lib-flexible@0.3.2': { done: true },
+     'install:lib-flexible@^0.3.2':
+      { package: [Object],
+        dir:
+         'C:\\Users\\Administrator\\Desktop\\take-delivery\\node_modules\\_lib-flexible@0.3.2@lib-flexible' },
+     'install:lib-flexible:range:0.4.0':
+      { package: [Object],
+        dir:
+         'C:\\Users\\Administrator\\Desktop\\take-delivery\\node_modules\\_lib-flexible@0.3.2@lib-flexible' } },
+  targetDir: 'C:\\Users\\Administrator\\Desktop\\take-delivery',
+  storeDir:
+   'C:\\Users\\Administrator\\Desktop\\take-delivery\\node_modules',
+  timeout: 60000,
+  streamingTimeout: 120000,
+  console:
+   { info:
+      { [Function: debug]
+        namespace: 'npminstall:format_install_options',
+        enabled: false,
+        useColors: true,
+        color: 3,
+        inspectOpts: {} },
+     log:
+      { [Function: debug]
+        namespace: 'npminstall:format_install_options',
+        enabled: false,
+        useColors: true,
+        color: 3,
+        inspectOpts: {} },
+     error: [Function: bound consoleCall],
+     warn: [Function: bound consoleCall] },
+  start: 1545372540908,
+  totalTarballSize: 0,
+  totalJSONSize: 280,
+  totalJSONCount: 1,
+  localPackages: 0,
+  remotePackages: 0,
+  registryPackages: 0,
+  gitPackages: 0,
+  pendingMessages: [],
+  recentlyUpdateMinDateTime: 1544767740908,
+  recentlyUpdates: Map {},
+  onlyShowTodayUpdateToConsole: true,
+  remoteNames: {},
+  referer:
+   'install lib-flexible --uuid=e8f859d0-04e6-11e9-af55-bfde974bd921',
+  installRoot: false,
+  progresses:
+   { installTasks: 1,
+     finishedInstallTasks: 1,
+     linkTasks: 0,
+     finishedLinkTasks: 0 },
+  rawCount: 0,
+  rawSize: 0,
+  pruneCount: 0,
+  pruneSize: 0,
+  rootPkgDependencies:
+   { allMap: [Getter],
+     all: [Getter],
+     prodMap: [Getter],
+     prod: [Getter] },
+  downloadFinished: 1545372604729 }

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018/12/18</title>
+    <!--好的代码像粥一样,是得用时间和精力熬的。-->
+</head>
+<body>
+
+</body>
+<script>
+  function Person(config) {
+    this.name = config.name;
+    this.age = config.age;
+  }
+  Person.component = function () {
+    return new this();
+  };
+  Person.component();
+</script>
+</html>

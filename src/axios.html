@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018/12/19</title>
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <!--好的代码像粥一样,是得用时间和精力熬的。-->
+</head>
+<body>
+<script>
+  axios.get('../event.js')
+  .then((response)=>{console.log(response)})
+  .catch((error)=>{console.log(error)});
+
+  axios.post('https://event.cn/api/user',{a:1});
+
+
+
+
+
+  //restful API
+  //axios.put()
+</script>
+</body>
+</html>
